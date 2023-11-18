@@ -63,8 +63,8 @@ const createUserInfo = async (req, res) => {
         nickname: req.body.nickname,
         hairColor: req.body.hairColor,
         hobby: req.body.hobby,
-        height: req.body.height,
-        weight: req.body.weight,
+        address: req.body.address,
+        url: req.body.url,
         city: req.body.city
     };
 
@@ -85,8 +85,8 @@ const updateUserInfo = async (req, res) => {
         nickname: req.body.nickname,
         hairColor: req.body.hairColor,
         hobby: req.body.hobby,
-        height: req.body.height,
-        weight: req.body.weight,
+        address: req.body.address,
+        url: req.body.url,
         city: req.body.city
     };
 

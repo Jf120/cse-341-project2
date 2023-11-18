@@ -76,6 +76,9 @@
           "204": {
             "description": "No Content"
           },
+          "412": {
+            "description": "Precondition Failed"
+          },
           "500": {
             "description": "Internal Server Error"
           }
@@ -142,6 +145,9 @@
         "responses": {
           "204": {
             "description": "No Content"
+          },
+          "412": {
+            "description": "Precondition Failed"
           },
           "500": {
             "description": "Internal Server Error"
@@ -243,10 +249,10 @@
                 "hobby": {
                   "example": "any"
                 },
-                "height": {
+                "address": {
                   "example": "any"
                 },
-                "weight": {
+                "url": {
                   "example": "any"
                 },
                 "city": {
@@ -262,6 +268,9 @@
           },
           "400": {
             "description": "Bad Request"
+          },
+          "412": {
+            "description": "Precondition Failed"
           },
           "500": {
             "description": "Internal Server Error"
@@ -298,10 +307,10 @@
                 "hobby": {
                   "example": "any"
                 },
-                "height": {
+                "address": {
                   "example": "any"
                 },
-                "weight": {
+                "url": {
                   "example": "any"
                 },
                 "city": {
@@ -314,6 +323,9 @@
         "responses": {
           "204": {
             "description": "No Content"
+          },
+          "412": {
+            "description": "Precondition Failed"
           },
           "500": {
             "description": "Internal Server Error"
