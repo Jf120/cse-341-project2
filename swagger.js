@@ -6,7 +6,7 @@ const doc = {
         description: "Project 2 API Information",
         version: "1.0.0"
     },
-    host: "https://project2-am6a.onrender.com",
+    host: "project2-am6a.onrender.com",
     schemes: ['http', 'https']
 };
 
